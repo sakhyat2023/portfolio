@@ -1,0 +1,18 @@
+body {
+  font-family: "Reddit Sans", sans-serif;
+}
+
+.profile-links {
+  background-color: #f2c85a;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.resume-btn,
+.tech-btn,
+.skill-btn,
+.message-btn,
+.footer-section {
+  background-color: #f2c85a !important;
+  border: #f2c85a !important;
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg py-2">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <img src="./images/1715498110291.png" alt="" srcset="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav gap-3 mb-2 mb-lg-0 fw-medium">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <a href="./files/pdf-sample.pdf" download class="btn resume-btn fw-bold">
+              <span>Resume</span>
+              <span><i class="fa-solid fa-download"></i></span>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="hero-section container py-5">
+      <div class="row align-items-center gap-5">
+        <div class="left-side col-lg-6">
+          <h1 class="text-uppercase">hi! i am sakayat kabir Rashu</h1>
+          <p class="fs-3">Backend Web developer | Nodejs | Django</p>
+          <p class="fs-5">
+            Highly skilled backend developer with expertise in Node.js and
+            Python, with a strong focus on building scalable, efficient, and
+            secure applications
+          </p>
+          <div class="d-flex gap-3">
+            <div
+              class="profile-links fs-4 d-flex justify-content-between py-1 px-4"
+            >
+              <a href="http://" class="nav-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="http://" class="nav-link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="http://" class="nav-link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <a href="./files/pdf-sample.pdf" download class="btn d-flex align-items-center resume-btn fw-bold">
+              <span>Resume</span>
+              <span><i class="fa-solid fa-download"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="right-side col">
+          <div class="profile-image">
+            <img src="./images/1715455022847.jpeg" alt="" class="w-100 h-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio projects -->
+    <div class="portfolio-section py-5" id="projects">
+      <h2 class="section-header text-center">Projects</h2>
+      <div class="container py-5">
+        <div class="row gap-4 border border-1 p-4">
+          <div id="carouselExample" class="carousel slide col-lg-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Screenshot_2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Screenshot_3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="portfolio-details col">
+            <h4 class="fw-bold">Online Shopping App</h4>
+            <a href="https://shopping-cart-eight-azure.vercel.app/" class="nav-link py-1">Live Link</a>
+            <p class="fs-5">
+              Online Shopping App is a modern and user-friendly e-commerce platform developed using the ReactJS framework. This application provides users with a seamless and interactive shopping experience, allowing them to browse, and purchase products online.
+            </p>
+            <div
+              class="technologies d-flex flex-wrap align-content-center gap-3"
+            >
+              <button class="btn tech-btn fw-medium">ReactJS</button>
+              <button class="btn tech-btn fw-medium">TailwindCSS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- project 2 -->
+      <div class="container">
+        <div class="row gap-4 border border-1 p-4">
+          <div id="carouselExampleIndicators" class="carousel slide col-lg-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Screenshot_1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Screenshot_4.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="portfolio-details col">
+            <h4 class="fw-bold">Hockeys Online Shopping App</h4>
+            <a href="https://sakhyat2023.github.io/online_shopping/" class="nav-link py-1">Live Link</a>
+            <p class="fs-5">
+              The online shop features a diverse selection of hockey gear and equipment, including sticks, skates, protective gear, apparel, and accessories from leading brands in the industry. Whether you are a junior player just starting out in the sport, a teenager looking to take your game to the next level, or a professional seeking top-of-the-line gear, Hockeys has everything you need to succeed on the ice.
+            </p>
+            <div
+              class="technologies d-flex flex-wrap align-content-center gap-3"
+            >
+              <button class="btn tech-btn fw-medium">HTML</button>
+              <button class="btn tech-btn fw-medium">CSS</button>
+              <button class="btn tech-btn fw-medium">Bootstrap</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills section -->
+    <div class="skills-section container" id="skills">
+      <h2 class="section-header text-center">Skills</h2>
+      <div class="row align-items-center gap-5 py-5">
+        <div class="skill-info d-flex flex-column gap-3 col-lg-6">
+          <div>
+            <span class="fs-5 fw-medium">Expertise:</span>
+            <div class="d-flex flex-wrap gap-3 py-2">
+              <button class="btn skill-btn fw-medium">ReactJS</button>
+              <button class="btn skill-btn fw-medium">NodeJS</button>
+              <button class="btn skill-btn fw-medium">ExpressJS</button>
+              <button class="btn skill-btn fw-medium">MongoDB</button>
+              <button class="btn skill-btn fw-medium">TailwindCSS</button>
+              <button class="btn skill-btn fw-medium">Bootstrap</button>
+            </div>
+          </div>
+          <div>
+            <span class="fs-5 fw-medium">Comfortable:</span>
+            <div class="d-flex flex-wrap gap-3 py-2">
+              <button class="btn skill-btn fw-medium">Django</button>
+              <button class="btn skill-btn fw-medium">Typescripts</button>
+              <button class="btn skill-btn fw-medium">NextJS</button>
+              <button class="btn skill-btn fw-medium">SQL</button>
+              <button class="btn skill-btn fw-medium">Redux</button>
+            </div>
+          </div>
+          <div>
+            <span class="fs-5 fw-medium">Familiar:</span>
+            <div class="d-flex flex-wrap gap-3 py-2">
+              <button class="btn skill-btn fw-medium">C++</button>
+              <button class="btn skill-btn fw-medium">Python</button>
+              <button class="btn skill-btn fw-medium">Git</button>
+            </div>
+            <div>
+              <span class="fs-5 fw-medium">Tools:</span>
+              <div class="d-flex flex-wrap gap-3 py-2">
+                <button class="btn skill-btn fw-medium">Vscode</button>
+                <button class="btn skill-btn fw-medium">Chrome DevTools</button>
+                <button class="btn skill-btn fw-medium">Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="edu-info d-flex flex-column gap-1 col">
+          <h1>My Education</h1>
+          <span>B.Sc Computer Science and Engineering</span>
+          <span>Islamic University Kushtia</span>
+        </div>
+      </div>
+    </div>
+    <!-- contact section -->
+    <div class="contact-section container" id="contact">
+      <h2 class="section-header text-center">Contact With Me</h2>
+      <div class="contact-form py-5">
+        <form class="d-flex flex-column gap-4">
+          <div class="form-controll d-flex flex-lg-row flex-column gap-3">
+            <div class="form-group w-100">
+              <label for="exampleInputEmail1">Your Name</label>
+              <input
+                type="email"
+                class="form-control mt-2"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter your full name"
+              />
+            </div>
+            <div class="form-group w-100">
+              <label for="exampleInputEmail1">Your Email</label>
+              <input
+                type="email"
+                class="form-control mt-2"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="form-controll d-flex flex-lg-row flex-column gap-3">
+            <div class="form-group w-100">
+              <label for="exampleInputEmail1">Message</label>
+              <textarea
+                class="form-control mt-2"
+                id="exampleFormControlTextarea1"
+                rows="12"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+          </div>
+          <button class="btn message-btn fw-medium">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-section text-center fw-bold py-5">
+      <p>Copyright 2024 | Sakhyat</p>
+      <p>Kushtia, Bangladesh</p>
+      <div class="social-links d-flex justify-content-center gap-5">
+        <a href="http://" class="nav-link"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="http://" class="nav-link"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="http://" class="nav-link"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
